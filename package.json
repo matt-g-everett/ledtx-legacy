@@ -1,10 +1,12 @@
 {
-  "name": "ledstreamer",
+  "name": "ledtx",
   "version": "0.1.0",
   "description": "Provides a UI and REST API that configures the ESP32-based LED controller over CoAP and streams frames to it.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "node --inspect-brk index.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,11 @@
   },
   "homepage": "https://github.com/stdnerd/ledstreamer#readme",
   "dependencies": {
-    "express": "^4.16.4"
+    "bluebird": "^3.5.3",
+    "coap": "^0.22.0",
+    "coap-router": "^1.0.0",
+    "express": "^4.16.4",
+    "protobufjs": "^6.8.8",
+    "request": "^2.88.0"
   }
 }
