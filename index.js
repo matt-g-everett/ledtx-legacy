@@ -10,7 +10,7 @@ const HTTP_PORT = 3000;
 const COAP_PORT = 5683;
 const LED_COUNT = 350;
 const TX_HOST = 'localhost';
-const RX_HOST = 'localhost';
+const RX_HOST = '192.168.1.40';
 
 const httpApp = express();
 const coapApp = CoapRouter();
