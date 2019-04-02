@@ -9,6 +9,18 @@
             "request": "launch",
             "name": "Launch Program",
             "program": "${workspaceFolder}/index.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch CLI",
+            "program": "${workspaceFolder}/cli.js"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Stub",
+            "program": "${workspaceFolder}/stub.js"
         }
     ]
 }

@@ -94,7 +94,7 @@ httpApp.put('/api/config', (req, res) => {
             res.on('end', function() {
                 console.log('done sending request.');
             });
-        })
+        });
     }
     
     res.send();
